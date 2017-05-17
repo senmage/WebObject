@@ -1,0 +1,122 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+*:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+ol, ul, li {
+  list-style: none; }
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+html {
+  font-size: 625%;
+  /* 1rem = 10px ; 1em = 100px */ }
+
+body {
+  font-family: "Microsoft Yahei";
+  background-color: #fff;
+  color: #000;
+  font-size: .12rem; }
+
+input, img, textarea, select, label {
+  vertical-align: middle; }
+
+input:focus, select:focus, option:focus, button:focus {
+  outline: none; }
+
+.clearFix {
+  zoom: 1; }
+  .clearFix:before, .clearFix:after {
+    clear: both;
+    content: "";
+    height: 0;
+    display: block; }
+
+/* 公共盒模型样式  */
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.positionRe {
+  position: relative; }
+
+.mg15 {
+  margin: 15px; }
+
+.ft30 {
+  font-size: 30px; }
+
+.ft13 {
+  font-size: 13px; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.font-bold {
+  font-weight: 700; }
+
+.m-t {
+  margin-top: 15px; }
+
+.m-b {
+  margin-bottom: 15px; }
+
+.wrapper {
+  padding: 15px; }
+
+.paddingTop2px {
+  padding-top: 2px; }
+
+.colorWhite {
+  color: #fff; }
+
+.colorWhite-bk {
+  background-color: #fff !important; }
+
+.color-purple {
+  color: #564aa3; }
+
+.color-purple-back {
+  background-color: #564aa3 !important; }
+
+.color-dker {
+  color: #1797be; }
+
+.color-dker-back {
+  background-color: #1797be !important; }
+
+.color-lter {
+  color: #51c6ea; }
+
+.color-lter-back {
+  background-color: #51c6ea !important; }
+
+.color-success {
+  color: #27c24c; }
+
+.color-success-back {
+  background-color: #27c24c !important; }
+
+.contentColor {
+  color: #a6a8b1; }
+
+/*   */
+
+/*# sourceMappingURL=common.css.map */
