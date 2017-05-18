@@ -662,23 +662,6 @@
         <img src="../img/up.png">
     </div>
     <script>
-        function aa(){
-            var result = new Array();
-            for(var i=0;i<10;i++){
-                result[i] = function(){
-                    return i;
-                };
-            }
-            return result;
-        }
-        function bb(){
-            for(var i=0;i<2;i++){
-                console.log(i);
-            }
-            console.log(i);
-        }
-        bb();
-        console.log(aa());
         $(function(){
             $("#upToTop").hide();
             $(window).scroll(function(){
@@ -693,16 +676,6 @@
             $("#upToTop").click(function(){
                 $("html,body").animate({scrollTop:0})
             })
-            function Person(name,age,job){
-                this.name = name;
-                this.age = age;
-                this.job = job;
-                this.setName = function(){
-                    alert(this.name);
-                }
-            }
-            var person1 = new Person("Huang",18,"work");
-            console.log(person1);
         })
     </script>
 </body>
